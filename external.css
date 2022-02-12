@@ -1,0 +1,196 @@
+#body_table{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#section{
+	display:flex;
+	flex-direction: column;
+	justify-content: left;
+}
+#aside{
+	display:flex;
+    flex-direction:column;
+}
+h1{
+	text-transform:uppercase;
+}
+h2{
+	text-transform:uppercase;
+	font-size:20px ;
+	text-align: left;
+	color: black;
+	font-style:bold;
+}
+.logo{
+	font-size:30px ;
+	text-align: left;
+	color:lightgray;
+}
+.invoice{
+	font-size:20px ;
+	text-align:right;
+	padding-left: 70%;
+	color: lightgray;
+}
+.to_tal{
+    background-color: darksalmon;
+}
+.client{
+	padding-top:50px;
+}
+#table1{
+	padding-top:60px;
+	border:5px;
+}	
+table,tr,th,td{
+	text-align:center;
+	border:1px solid black;
+	width:inherit;
+	border-collapse:collapse;
+	height:50px;
+	padding-right:inherit;
+
+}
+.tablehead{
+	background-color:darkorange;
+	text-align: center;
+	height:50px;
+	width:100px;
+}
+.sign{
+	font-size:15px ;
+	text-align: right;
+	padding-right: 60px;
+	text-transform: uppercase;
+}
+.date{
+	font-size:15px ;
+	text-align:left;
+	padding-left:20px;
+	text-transform: uppercase;
+}
+.box{
+	display:flex;
+	flex-direction: row;
+}
+.box1{
+	border:1px solid black;
+	width:250px;
+	height:30px;
+}
+.box2{
+	border:1px solid black;
+	width:155px;
+	height:30px;
+}
+.date1{
+	text-align: left;
+	text-transform: uppercase;
+	padding:20px;
+}
+.num{
+	text-transform: uppercase;
+	text-align: right;
+	padding:50px;
+}
+.box5,.box6{
+	border:1px solid black;
+	width:250px;
+	height:30px;
+}
+.box3{
+	border:1px solid black;
+	width:180px;
+	height:30px;
+}
+.box4{
+	border:1px solid black;
+	width:320px;
+	height:30px;
+}
+.section-bottom{
+	border: 1px solid black;
+	width:280px;
+	height:30px;
+
+}
+p{
+	text-transform: uppercase;
+	padding-left: 20%;
+	font-size:20px;
+}
+#begining{
+	text-transform: uppercase;
+	text-align:left;
+	padding:20px;
+	font-size:20px;
+}
+#ending{
+	text-transform:uppercase;
+	padding:20px;
+	text-align:right;
+	font-size:20px;
+}
+#aside-mid{
+	border:1px solid black;
+	width:497px;
+	height:10px;
+}
+#desc{
+	height:100px;
+    width:498px;
+	border:1px solid black;
+}
+#table2{
+	width:501px;
+}
+.table2{
+	background-color: orange;
+	width:150px;
+	height:50px
+}
+.aside-middle{
+	border:1px solid black;
+	width:300px;
+	height:10px;
+}
+.aside-bottom{
+	width:370px;
+}
+.box7{
+	border:1px solid black;
+	width:125px;
+	height:10px;
+}
+#currency{
+	text-align:right;
+	padding-right:30px;
+}
+#value{
+    text-align:left;
+	padding-left:40px;
+}
+.last{
+	display:flex;
+	flex-direction:row;
+}
+.total1{
+	width:200px;
+}
+#total{
+	text-transform: uppercase;
+	font-style:normal;
+    font-size:20px;
+}
+#footer{
+	color:silver;
+}
+#footerE1{
+    text-transform: uppercase;
+}
+.box8{
+	border:1px solid black;
+	width:298px;
+	height:30px;
+}
