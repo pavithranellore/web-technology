@@ -1,0 +1,96 @@
+h1,h2{
+    display:inline-block;
+    padding-left: 20px;
+    column-gap:0px;
+}
+h1{
+    color:1px solid black;
+}
+h2{
+    color:burlywood;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#header{
+    color:rgb(26, 206, 146);
+    text-transform: uppercase;
+    display: inline-block;
+}
+#contact-info{
+    display:inline-block;
+    padding-top:0%;
+    padding-left:80%;
+    /*text-justify:kashida;*/
+    direction: rtl;
+}
+#address{
+    text-transform:capitalize;
+}
+.colored{
+    color:rgb(0, 183, 255); 
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;  
+}
+hr.colored{
+    border-top: 3px solid rgb(0,183,255);
+}
+hr.dotted{
+    border-top: 3px dashed gray;
+    padding-left:10%;
+    width:70%;
+    height: 50%;
+}
+.highlight{
+    color: solid black;
+    text-transform: capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;   
+}
+#isiran{
+    text-transform: uppercase;
+}
+.heading{
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight:bold;
+    position:static;
+    row-gap:15px;
+}
+.us{
+    color:dimgray;
+    text-transform: capitalize;
+}
+.upper{
+    text-transform:uppercase;
+    font-size: small;
+    color:dimgray;
+}
+.aside_left{
+    color:rgb(0, 183, 255);
+    text-transform: capitalize;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+#box-1{
+    position:relative;
+}
+aside{
+    float:right;
+    width:30%;
+}
+section{
+    float:left;
+    width:60%;
+    /*top: 5%;*/
+}
+.sec_left{
+    width:10%;
+    display:inline-block;
+    column-gap: 20px;
+    text-transform: capitalize;
+}
+.sec_right{
+    width:70%;
+    display: inline-block; 
+}
